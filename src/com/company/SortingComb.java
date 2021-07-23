@@ -1,5 +1,9 @@
 package com.company;
 
+/*
+ * @param array - the array to be sorted;
+ * @return - filter array ;
+ */
 public class SortingComb {
     public static int[] sortingArray(int[] array) {
         int step = array.length;
