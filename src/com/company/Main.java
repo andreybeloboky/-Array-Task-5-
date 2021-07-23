@@ -9,6 +9,7 @@ public class Main {
         int size = scanner.nextInt();
         if (size > 0) {
             int[] array = ArrayGenerator.createArray(size);
+            int[] sortingCombArray = SortingComb.sortingArray(array);
         }
     }
 }
