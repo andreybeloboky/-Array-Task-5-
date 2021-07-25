@@ -9,10 +9,10 @@ public class Main {
         System.out.println("Enter size array");
         int size = scanner.nextInt();
         if (size > 0) {
-            int[] array = ArrayGenerator.createArray(size);
-            int[] sortingCombArray = SortingComb.sortingArray(array);
+            int[] array = ArrayGenerator.create(size);
+            int[] sortingCombArray = ArraySorter.SortingComb(array);
             ArrayOutput.consoleOutput(sortingCombArray);
-        }else {
+        } else {
             System.out.println("The size of the array must be a positive number ");
         }
     }

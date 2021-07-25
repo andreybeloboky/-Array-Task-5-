@@ -4,8 +4,8 @@ package com.company;
  * @param array - the array to be sorted;
  * @return - filter array ;
  */
-public class SortingComb {
-    public static int[] sortingArray(int[] array) {
+public class ArraySorter {
+    public static int[] SortingComb(int[] array) {
         int step = array.length;
         while (step > 0) {
             step = step - 1;

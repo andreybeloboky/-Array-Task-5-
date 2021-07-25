@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @return - filled array  ;
  */
 public class ArrayGenerator {
-    public static int[] createArray(int size) {
+    public static int[] create(int size) {
         Scanner scanner = new Scanner(System.in);
         int[] array = new int[size];
         for (int i = 0; i < array.length; i++) {
