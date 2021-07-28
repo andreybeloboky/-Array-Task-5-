@@ -5,7 +5,7 @@ package com.company;
  * @return - filter array ;
  */
 public class ArraySorter {
-    public static int[] SortingComb(int[] array) {
+    public static int[] sortingComb(int[] array) {
         int step = array.length;
         while (step > 0) {
             step = step - 1;

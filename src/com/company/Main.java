@@ -10,7 +10,7 @@ public class Main {
         int size = scanner.nextInt();
         if (size > 0) {
             int[] array = ArrayGenerator.create(size);
-            int[] sortingCombArray = ArraySorter.SortingComb(array);
+            int[] sortingCombArray = ArraySorter.sortingComb(array);
             ArrayOutput.consoleOutput(sortingCombArray);
         } else {
             System.out.println("The size of the array must be a positive number ");
